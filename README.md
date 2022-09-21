@@ -7,7 +7,7 @@
 3. [Heroku Account](https://heroku.com)
 4. [GitCLI](https://git-scm.com/downloads/guis)
 
-create new env   :
+create new env :
 
 ```
  conda create -p venv python=3.9 -y
