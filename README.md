@@ -19,3 +19,5 @@ Activate new env :
 CALL conda.bat activate
 conda activate venv/ 
 ```
+
+while testing in postman give 'key'= 'Content-Type' and 'Value' = 'application/json'

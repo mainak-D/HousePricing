@@ -25,11 +25,11 @@ def predict_api():
     # now will convert those values to list ny doing list(data.values())
     # to feed this data in reg model we need 1 row containing all the features
     # so np.array(list(data.values())).reshape(1,-1) 
-    
     new_data=scalar.transform(np.array(list(data.values())).reshape(1,-1))
     output=regmodel.predict(new_data) # we will get a array with one entity we need 1st value
     print(output[0])
     return jsonify(output[0])
+
 
 if __name__=="__main__":
     app.run(debug=True)
